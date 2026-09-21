@@ -1,0 +1,104 @@
+.seo-report {
+    margin: 20px 0;
+}
+
+.seo-report__filters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 12px;
+    margin-bottom: 20px;
+    padding: 16px;
+    border: 1px solid #d9dde3;
+    background: #f7f8fa;
+}
+
+.seo-report__field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 14px;
+}
+
+.seo-report__field input,
+.seo-report__field select,
+.seo-report__submit {
+    box-sizing: border-box;
+    min-height: 36px;
+    padding: 7px 10px;
+    border: 1px solid #b9c0c9;
+    border-radius: 3px;
+    font: inherit;
+}
+
+.seo-report__field input {
+    width: 90px;
+}
+
+.seo-report__field--sort select {
+    min-width: 190px;
+    background: #fff;
+}
+
+.seo-report__submit {
+    cursor: pointer;
+    border-color: #2f6eb5;
+    color: #fff;
+    background: #2f6eb5;
+}
+
+.seo-report__summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 12px;
+}
+
+.seo-report__error {
+    padding: 12px;
+    border: 1px solid #dca7a7;
+    color: #8c2424;
+    background: #fff2f2;
+}
+
+.seo-report__table-wrap {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.seo-report__table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+.seo-report__table th,
+.seo-report__table td {
+    padding: 9px 10px;
+    border: 1px solid #d9dde3;
+    text-align: left;
+    vertical-align: top;
+}
+
+.seo-report__table th {
+    white-space: nowrap;
+    font-weight: 600;
+    background: #f0f2f5;
+}
+
+.seo-report__table td:not(:nth-child(2)):not(:last-child) {
+    white-space: nowrap;
+}
+
+.seo-report__table td:last-child {
+    min-width: 220px;
+}
+
+.seo-report__table tbody tr:nth-child(even) {
+    background: #fafbfc;
+}
+
+.seo-report__empty {
+    padding: 18px !important;
+    text-align: center !important;
+}
