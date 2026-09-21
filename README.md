@@ -43,9 +43,7 @@
 
 Компонент должен находиться в каталоге:
 
-```text
-/local/components/artem/seo.report/
-```
+`/local/components/artem/seo.report/`
 
 Минимальный пример подключения:
 
